@@ -1,6 +1,6 @@
 {% set name = "nest-asyncio" %}
 {% set nameUnderscore = "nest_asyncio" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ nameUnderscore[0] }}/{{ nameUnderscore }}/{{ nameUnderscore }}-{{ version }}.tar.gz
-  sha256: f1172852755ec9ce1c7b76b0355ca7da0aa5073b556c04f0c50e5b9484782651
+  sha256: f5b22dd23ee6195cea509c344d9ec34274f45bff078d8f18e9dc322dc74c6008
 
 build:
   noarch: python
