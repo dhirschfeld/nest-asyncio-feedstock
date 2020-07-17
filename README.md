@@ -5,7 +5,7 @@ Home: https://github.com/erdewit/nest_asyncio
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Patch asyncio to allow nested event loops
 
