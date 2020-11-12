@@ -1,6 +1,6 @@
 {% set name = "nest-asyncio" %}
 {% set nameUnderscore = "nest_asyncio" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ nameUnderscore[0] }}/{{ nameUnderscore }}/{{ nameUnderscore }}-{{ version }}.tar.gz
-  sha256: c614fcfaca72b1f04778bc0e73f49c84500b3d045c49d149fc46f1566643c175
+  sha256: eaa09ef1353ebefae19162ad423eef7a12166bcc63866f8bff8f3635353cd9fa
   patches:
     - 0001-Prevent-infinite-loop-when-asyncio.sleep-0-is-used-i.patch
 
